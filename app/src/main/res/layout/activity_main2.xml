@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dog"
+        android:textColor="#123456"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button1"
+        android:background="@color/colorAccent"
+        android:textColor="#789012"
+        android:textSize="30sp"
+        android:layout_marginTop="60dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button2"
+        android:background="@color/colorAccent"
+        android:textColor="#789012"
+        android:textSize="30sp"
+        android:layout_marginTop="120dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cat"
+        android:textColor="#123456"
+        android:layout_marginTop="160dp"
+
+        />
+
+</LinearLayout>

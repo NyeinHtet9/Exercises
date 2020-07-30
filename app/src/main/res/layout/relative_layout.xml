@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+
+        android:id="@+id/btnTop"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Top"
+        android:textColor="@android:color/black"
+        android:textSize="60sp" />
+
+
+    <Button
+        android:id="@+id/btnLeft"
+        android:layout_width="179dp"
+        android:layout_height="76dp"
+        android:layout_below="@+id/btnTop"
+        android:layout_marginTop="63dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/Left"
+        android:textSize="40sp"
+        android:textColor="@android:color/black" />
+
+
+    <Button
+        android:id="@+id/btnBottom"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_below="@+id/btnTop"
+        android:layout_marginTop="196dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Bottom"
+        android:textColor="@color/textColorBlack"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btnRight"
+        android:layout_width="185dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/btnTop"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="67dp"
+        android:layout_toRightOf="@+id/btnLeft"
+        android:background="@android:color/holo_blue_light"
+        android:text="Right"
+        android:textColor="@android:color/black"
+
+        android:textSize="40sp" />
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/btnBottom"
+        android:layout_marginTop="65dp"
+        android:contentDescription="@string/description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image" />
+
+</RelativeLayout>

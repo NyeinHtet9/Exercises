@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/oeschinen" />
+
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="240dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/image1"
+        android:layout_marginTop="18dp"
+        android:text="Oeschinen Lake Campground"
+        android:textColor="@color/textColorBlack" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/text2"
+        android:layout_marginTop="2dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_call_24" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="240dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/text1"
+        android:text="Kandersteg, Switzerland"
+        android:textColor="#7C8083"
+        />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text2"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/image2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_near_me_24" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text2"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toEndOf="@+id/image3"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_share_24" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/image1"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/text2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_star_24" />
+
+    <TextView
+        android:id="@+id/text41"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_below="@id/image1"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_toEndOf="@+id/image"
+        android:text="41"
+        android:textColor="#020202"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="264dp"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginRight="15dp"
+        android:text="Oeschinen Lake or Oeschinensee or Lago di Oeschinen, with pristine nature and turquoise blue waters, is literally heaven on earth. High mountains rise on all sides of the lake. And Oeschinensee is like a sparkling gem in the centre. The lake is at the foot of Mountains – Blüemlisalp, Oeschinenhorn, Fründenhorn and Doldenhorn. Osechinen Lake is fed by underwater streams as well as glacial waterfalls falling from the top of these mountains. Make sure to check the webcam for weather conditions before you go here. And by the way, Oeschinen Lake is part of the UNESCO World Heritage Sites list."
+        android:textColor="#7C8083"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
